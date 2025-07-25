@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Training",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://nwvl125:8080/",
+            "port": 9049,
+            "serverInstance": "BC252",
+            "authentication": "Windows",
+            "startupObjectId": 50510,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "AL: Generated Download Symbols request",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "SandboxVN",
+            "tenant": "3b5ff753-4aa1-41c3-8a58-e148e35fa1ab"
+        }
+    ]
+}

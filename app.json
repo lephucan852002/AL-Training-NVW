@@ -1,0 +1,23 @@
+{
+  "id": "d0512169-7661-489e-93bc-7662f98b9a10",
+  "name": "Training - Practice",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "application": "25.2.29365.0",
+  "runtime": "12.0",
+  "idRanges": [
+    {
+      "from": 50500,
+      "to": 50600
+    }
+  ],
+  "dependencies": [],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "features": [
+    "NoImplicitWith"
+  ]
+}
